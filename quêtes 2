@@ -147,3 +147,8 @@ Air-de-Gadis:real gadisben$ ls
 gas-giants	telluric
 Air-de-Gadis:real gadisben$ cd ..
 Air-de-Gadis:planets gadisben$ 
+Air-de-Gadis:planets gadisben$ find
+usage: find [-H | -L | -P] [-EXdsx] [-f path] path ... [expression]
+       find [-H | -L | -P] [-EXdsx] -f path [path ...] [expression]
+Air-de-Gadis:planets gadisben$ 
+
