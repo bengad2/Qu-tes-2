@@ -1,0 +1,149 @@
+Last login: Thu Dec  8 15:31:44 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Air-de-Gadis:~ gadisben$ ls
+Applications	Downloads	Movies		Public
+Desktop		GitHub		Music		cours
+Documents	Library		Pictures	document
+Air-de-Gadis:~ gadisben$ cd Desktop
+Air-de-Gadis:Desktop gadisben$ ls
+Capture d’écran 2022-12-08 à 12.03.13.png
+GitHub Desktop.app
+dossier sans titre
+testeur
+Air-de-Gadis:Desktop gadisben$ cd testeur/
+Air-de-Gadis:testeur gadisben$ ls
+quetes
+Air-de-Gadis:testeur gadisben$ cd quetes/
+Air-de-Gadis:quetes gadisben$  cd shell/
+Air-de-Gadis:shell gadisben$ ls
+fruits
+legumes
+planets
+planets.zip
+touch carotte chou-rave chou-fleur courgette
+touche poire
+touche pomme
+Air-de-Gadis:shell gadisben$ cd planets
+Air-de-Gadis:planets gadisben$ ls
+arrakis.jpeg	earth.jpeg	mercury.jpeg	saturn.jpeg
+coruscant.jpeg	jupiter.jpeg	neptune.jpeg	uranus.jpeg
+cybertron.jpeg	mars.jpeg	pluto.jpeg	venus.jpeg
+Air-de-Gadis:planets gadisben$ ls
+arrakis.jpeg	earth.jpeg	mercury.jpeg	saturn.jpeg
+coruscant.jpeg	jupiter.jpeg	neptune.jpeg	uranus.jpeg
+cybertron.jpeg	mars.jpeg	pluto.jpeg	venus.jpeg
+Air-de-Gadis:planets gadisben$ pwd
+/Users/gadisben/Desktop/testeur/quetes/shell/planets
+Air-de-Gadis:planets gadisben$ mkdir real
+Air-de-Gadis:planets gadisben$ mv earth.jpeg real/
+Air-de-Gadis:planets gadisben$ mv mercury.jpeg real/
+Air-de-Gadis:planets gadisben$ mv mars.jpeg real/
+Air-de-Gadis:planets gadisben$ mv saturn.jpeg real/
+Air-de-Gadis:planets gadisben$ mv uranus.jpeg real
+Air-de-Gadis:planets gadisben$ ls
+arrakis.jpeg	cybertron.jpeg	neptune.jpeg	real
+coruscant.jpeg	jupiter.jpeg	pluto.jpeg	venus.jpeg
+Air-de-Gadis:planets gadisben$ mv neptune.jpeg real/
+Air-de-Gadis:planets gadisben$ mv venus.jpeg real/
+Air-de-Gadis:planets gadisben$ ls
+arrakis.jpeg	cybertron.jpeg	pluto.jpeg
+coruscant.jpeg	jupiter.jpeg	real
+Air-de-Gadis:planets gadisben$ mv jupiter.jpeg real/
+Air-de-Gadis:planets gadisben$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	pluto.jpeg	real
+Air-de-Gadis:planets gadisben$ mkdir fictional
+Air-de-Gadis:planets gadisben$ cp arrakis.jpeg fictional/
+Air-de-Gadis:planets gadisben$ cp coruscant.jpeg fictional/
+Air-de-Gadis:planets gadisben$ cp cybertron.jpeg fictional/
+Air-de-Gadis:planets gadisben$ mkdir inhabited
+Air-de-Gadis:planets gadisben$ mv arrakis.jpeg inhabited/
+Air-de-Gadis:planets gadisben$ mv cybertron.jpeg inhabited/
+Air-de-Gadis:planets gadisben$ ls
+coruscant.jpeg	fictional	inhabited	pluto.jpeg	real
+Air-de-Gadis:planets gadisben$ mv coruscant.jpeg inhabited/
+Air-de-Gadis:planets gadisben$ mv pluto.jpeg real
+Air-de-Gadis:planets gadisben$ ls
+fictional	inhabited	real
+Air-de-Gadis:planets gadisben$ cd real/
+Air-de-Gadis:real gadisben$ mkdir telluric
+Air-de-Gadis:real gadisben$ mkdir gas-giants 
+Air-de-Gadis:real gadisben$ mkdir dwarf-planets
+Air-de-Gadis:real gadisben$ mv jupiter.jpeg gas-giants/
+Air-de-Gadis:real gadisben$ mv saturn.jpeg gas-giants/
+Air-de-Gadis:real gadisben$ mv uranus.jpeg gas-giants/
+Air-de-Gadis:real gadisben$ mv neptune.jpeg gas-giants/
+Air-de-Gadis:real gadisben$ mv mercury.jpeg telluric/
+Air-de-Gadis:real gadisben$ mv venus.jpeg telluric/
+Air-de-Gadis:real gadisben$ cp earth.jpeg telluric/
+Air-de-Gadis:real gadisben$ ls
+dwarf-planets	gas-giants	pluto.jpeg
+earth.jpeg	mars.jpeg	telluric
+Air-de-Gadis:real gadisben$ pwd
+/Users/gadisben/Desktop/testeur/quetes/shell/planets/real
+Air-de-Gadis:real gadisben$ mv mars.jpeg telluric/
+Air-de-Gadis:real gadisben$ ls
+dwarf-planets	earth.jpeg	gas-giants	pluto.jpeg	telluric
+Air-de-Gadis:real gadisben$ mv pluto.jpeg dwarf-planets/
+Air-de-Gadis:real gadisben$ rm earth.jpeg 
+Air-de-Gadis:real gadisben$ ls
+dwarf-planets	gas-giants	telluric
+Air-de-Gadis:real gadisben$ cd telluric/
+Air-de-Gadis:telluric gadisben$ ls
+earth.jpeg	mars.jpeg	mercury.jpeg	venus.jpeg
+Air-de-Gadis:telluric gadisben$ cd ..
+Air-de-Gadis:real gadisben$ cd ..
+Air-de-Gadis:planets gadisben$ ls
+earth.jpeg	fictional	inhabited	real
+Air-de-Gadis:planets gadisben$ mv earth.jpeg inhabited/
+Air-de-Gadis:planets gadisben$ cd fictional/
+Air-de-Gadis:fictional gadisben$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg
+Air-de-Gadis:fictional gadisben$ cd ..
+Air-de-Gadis:planets gadisben$ cd inhabited/
+Air-de-Gadis:inhabited gadisben$ ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	earth.jpeg
+Air-de-Gadis:inhabited gadisben$ cd ..
+Air-de-Gadis:planets gadisben$ cd ..
+Air-de-Gadis:shell gadisben$ ls
+fruits
+legumes
+planets
+planets.zip
+touch carotte chou-rave chou-fleur courgette
+touche poire
+touche pomme
+Air-de-Gadis:shell gadisben$ cd planets
+Air-de-Gadis:planets gadisben$ ls
+fictional	inhabited	real
+Air-de-Gadis:planets gadisben$ cd real/
+Air-de-Gadis:real gadisben$ ls
+dwarf-planets	gas-giants	telluric
+Air-de-Gadis:real gadisben$ rm dwarf-planets/
+rm: dwarf-planets/: is a directory
+Air-de-Gadis:real gadisben$ ls
+dwarf-planets	gas-giants	telluric
+Air-de-Gadis:real gadisben$ rm dwarf-planets/
+rm: dwarf-planets/: is a directory
+Air-de-Gadis:real gadisben$ cd dwarf-planets/
+Air-de-Gadis:dwarf-planets gadisben$ ls
+pluto.jpeg
+Air-de-Gadis:dwarf-planets gadisben$ rm pluto.jpeg 
+Air-de-Gadis:dwarf-planets gadisben$ cd ..
+Air-de-Gadis:real gadisben$ cd dwarf-planets/
+Air-de-Gadis:dwarf-planets gadisben$ ls
+Air-de-Gadis:dwarf-planets gadisben$ cd ..
+Air-de-Gadis:real gadisben$ ls
+dwarf-planets	gas-giants	telluric
+Air-de-Gadis:real gadisben$ cd dwarf-planets/
+Air-de-Gadis:dwarf-planets gadisben$ ls
+Air-de-Gadis:dwarf-planets gadisben$ cd ..
+Air-de-Gadis:real gadisben$ rm dwarf-planets/
+rm: dwarf-planets/: is a directory
+Air-de-Gadis:real gadisben$ rm -r dwarf-planets/
+Air-de-Gadis:real gadisben$ ls
+gas-giants	telluric
+Air-de-Gadis:real gadisben$ cd ..
+Air-de-Gadis:planets gadisben$ 
